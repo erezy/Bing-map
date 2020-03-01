@@ -12,7 +12,7 @@ export let Microsoft;
 
 export function loadBingApi() {
   const callbackName = "bingAPIReady";
-  const key  = "Ajdd_2As8tm0ujrfdzBcpowxnJcmGOwb8urwAk7T1tIuV3hx68gOe4fuqM5FuPpH";
+  const key  = "";
   let url = `https://www.bing.com/api/maps/mapcontrol?callback=${callbackName}&key=${key}`;
 
   return new Promise((resolve, reject) => {
