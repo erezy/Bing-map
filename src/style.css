@@ -1,0 +1,43 @@
+h1 {
+  font-family: Lato;
+  text-align: center;
+  color: darkturquoise;
+  font-family: serif;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.panel {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.map-wrap {
+  flex-grow: 3;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.locs {
+  display: flex;
+  flex-direction: column;
+}
+.loc {
+  display: flex;
+  border: 1px solid;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.add-button {
+  margin-top: 5px;
+}
